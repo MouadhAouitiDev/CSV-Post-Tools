@@ -1,0 +1,17 @@
+# Ignore everything in the root except the wp-content directory
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in wp-content except plugins
+wp-content/*
+!wp-content/plugins/
+
+# Ignore all plugins except your developed plugin
+wp-content/plugins/*
+!wp-content/plugins/CSVPostTools/
+
+# Exclude Composer files and vendor folder
+composer.json
+composer.lock
+wp-content/plugins/*/vendor/
