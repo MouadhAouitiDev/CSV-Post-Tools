@@ -9,7 +9,7 @@ wp-content/*
 
 # Ignore all plugins except your developed plugin
 wp-content/plugins/*
-!wp-content/plugins/CSVPostTools/
+!wp-content/plugins/csv-post-tools/
 
 # Exclude Composer files and vendor folder
 composer.json
